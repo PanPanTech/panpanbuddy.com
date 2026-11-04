@@ -4,7 +4,7 @@ Static marketing site for **KAKALOOM / Little Companions**, hosted for free on [
 
 ## Hosting
 
-Pages publishes this repository from the root (`/`), so `index.html` is the site homepage. The custom domain is **panpanbuddy.com**, with DNS at **Alibaba Cloud**. A root `CNAME` file tells GitHub Pages which domain to serve, and `.nojekyll` stops Pages from running Jekyll on these plain HTML, CSS, and asset files.
+Pages publishes this repository from the root (`/`), so `index.html` is the site homepage. The primary public domain is **https://www.panpanbuddy.com**. The root `CNAME` file is `www.panpanbuddy.com`, which is the hostname GitHub Pages serves. DNS is at **Alibaba Cloud**. `.nojekyll` stops Pages from running Jekyll on these plain HTML, CSS, and asset files.
 
 Motion clips were left out of this publish (size). The homepage “little reactions” row shows poster stills until the mp4s are added back.
 
