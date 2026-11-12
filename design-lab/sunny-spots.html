@@ -3,6 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- GitHub Pages serves .html files at the extensionless path, and index.html at the directory URL, both as 200. There is no rewrite file this host honors. Send those aliases to the sitemap URL. -->
+  <script>
+    (function () {
+      var canonicalPath = "/design-lab/sunny-spots.html";
+      if (location.pathname !== canonicalPath) {
+        location.replace(canonicalPath + location.search + location.hash);
+      }
+    })();
+  </script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-S13Z8KP7ML"></script>
   <script>
@@ -11,27 +20,46 @@
     gtag('js', new Date());
     gtag('config', 'G-S13Z8KP7ML');
   </script>
-  <title>Sunny Spots · Little Companions</title>
-  <meta name="description" content="Little Companions — touch-responsive plush companions. Catalog + enquiry. Design Lab concepts.">
+  <title>Sunny Spots · Design Lab · Little Companions</title>
+  <meta name="description" content="Sunny Spots is the everyday-bright Design Lab Season 1 shell, same spec as the other concepts and not for sale. A $3 ticket does not promise a mood effect.">
+  <link rel="canonical" href="https://www.panpanbuddy.com/design-lab/sunny-spots.html">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Little Companions">
+  <meta property="og:locale" content="en">
+  <meta property="og:title" content="Sunny Spots · Design Lab · Little Companions">
+  <meta property="og:description" content="Sunny Spots is the everyday-bright Design Lab Season 1 shell, same spec as the other concepts and not for sale. A $3 ticket does not promise a mood effect.">
+  <meta property="og:url" content="https://www.panpanbuddy.com/design-lab/sunny-spots.html">
+  <meta property="og:image" content="https://www.panpanbuddy.com/assets/lab/sunny-spots.jpg">
+  <meta property="og:image:alt" content="Sunny Spots Design Lab concept">
+  <meta property="og:image:width" content="720">
+  <meta property="og:image:height" content="720">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sunny Spots · Design Lab · Little Companions">
+  <meta name="twitter:description" content="Sunny Spots is the everyday-bright Design Lab Season 1 shell, same spec as the other concepts and not for sale. A $3 ticket does not promise a mood effect.">
+  <meta name="twitter:image" content="https://www.panpanbuddy.com/assets/lab/sunny-spots.jpg">
+  <meta name="twitter:image:alt" content="Sunny Spots Design Lab concept">
   <link rel="stylesheet" href="../css/site.css">
 </head>
 <body class="lc-site">
   <a class="lc-skip" href="#main">Skip to content</a>
   <div class="lc-ip-banner" role="status">Character art © Eye-Opening Communication / DUMIMI. Not an official DUMIMI store.</div>
-  <div class="lc-announcement">Catalog + enquiry · Online checkout closed · <a href="../design-lab/index.html">Design Lab Season 1</a></div>
+  <div class="lc-announcement">Catalog + enquiry · Online checkout closed · <a href="/design-lab/">Design Lab Season 1</a></div>
   <header class="lc-header">
     <div class="lc-container lc-nav">
-      <a class="lc-brand" href="../index.html">
+      <a class="lc-brand" href="/">
         <span class="lc-brand-mark">L<span>c</span></span>
         <span>Little Companions<small>SOFT COMPANY YOU CAN HOLD</small></span>
       </a>
       <button class="lc-menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">Menu</button>
       <nav class="lc-links" id="site-nav" aria-label="Primary">
-          <a href="../index.html">Home</a>
+          <a href="/">Home</a>
           <a href="../product.html">KAKALOOM</a>
           <a href="../how-it-works.html">How it works</a>
           <a href="../guides.html">Guides</a>
-          <a href="../design-lab/index.html" class="is-active">Design Lab</a>
+          <a href="/design-lab/" class="is-active">Design Lab</a>
           <a href="../about.html">About</a>
           <a href="../contact.html">Contact</a>
       </nav>
@@ -40,7 +68,7 @@
   </header>
   <main id="main">
 
-<div class="lc-container lc-breadcrumb"><a href="../index.html">Home</a><span>/</span><a href="index.html">Design Lab</a><span>/</span><span>Sunny Spots</span></div>
+<div class="lc-container lc-breadcrumb"><a href="/">Home</a><span>/</span><a href="/design-lab/">Design Lab</a><span>/</span><span>Sunny Spots</span></div>
 <section class="lc-container lc-page" style="padding-top:20px">
   <div class="lc-concept-hero">
     <div class="lc-concept-visual">
@@ -68,7 +96,7 @@
         <p style="font-size:13px;color:var(--lc-muted);margin:0 0 14px">Preview mock only — no real payment on this local site. Clicking continues to a mock success page.</p>
         <div class="lc-hero-actions">
           <a class="lc-button" href="#" data-mock-ticket="Sunny Spots" data-ticket-base="ticket-success.html">Hold a $3 ticket (mock)</a>
-          <a class="lc-text-link" href="index.html">Compare all 3 <span aria-hidden="true">↗</span></a>
+          <a class="lc-text-link" href="/design-lab/">Compare all 3 <span aria-hidden="true">↗</span></a>
         </div>
         <p class="lc-mock-note">Also preview: <a href="ticket-cancel.html?concept=sunny-spots">cancel</a> · <a href="funded.html?concept=sunny-spots">funded</a> · <a href="failed.html?concept=sunny-spots">failed</a></p>
       </div>
@@ -99,7 +127,7 @@
 <p class="lc-credit"><strong>We do not claim:</strong> medical/therapeutic effects · open-conversation AI · verified English voice recognition · guaranteed luck/fortune · current availability for purchase · certified safety marks not yet verified for this concept.<br>Character design © Eye-Opening Communication / DUMIMI — used under pending/written license only. Concept · not for sale. Not an official DUMIMI store.</p>
 
     <div class="lc-hero-actions" style="margin-top:28px">
-      <a class="lc-button lc-button-light" href="index.html">Back to Design Lab</a>
+      <a class="lc-button lc-button-light" href="/design-lab/">Back to Design Lab</a>
       <a class="lc-text-link" href="../product.html">Browse KAKALOOM <span aria-hidden="true">↗</span></a>
     </div>
   </div>
@@ -109,7 +137,7 @@
   <footer class="lc-footer">
     <div class="lc-container lc-footer-top">
       <div class="lc-footer-brand">
-        <a class="lc-brand" href="../index.html"><span class="lc-brand-mark">L<span>c</span></span><span>Little Companions</span></a>
+        <a class="lc-brand" href="/"><span class="lc-brand-mark">L<span>c</span></span><span>Little Companions</span></a>
         <p>Soft company you can hold.<br>Touch-responsive. Not an open chat AI.</p>
       </div>
       <div>
@@ -117,7 +145,8 @@
         <a href="../product.html">KAKALOOM</a>
         <a href="../how-it-works.html">How it works</a>
         <a href="../guides.html">Guides</a>
-        <a href="../design-lab/index.html">Design Lab</a>
+        <a href="/journal/what-kakaloom-is.html">What KAKALOOM is</a>
+        <a href="/design-lab/">Design Lab</a>
       </div>
       <div>
         <h2>COMPANY</h2>

@@ -3,6 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- GitHub Pages serves .html files at the extensionless path, and index.html at the directory URL, both as 200. There is no rewrite file this host honors. Send those aliases to the sitemap URL. -->
+  <script>
+    (function () {
+      var canonicalPath = "/guides.html";
+      if (location.pathname !== canonicalPath) {
+        location.replace(canonicalPath + location.search + location.hash);
+      }
+    })();
+  </script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-S13Z8KP7ML"></script>
   <script>
@@ -11,27 +20,127 @@
     gtag('js', new Date());
     gtag('config', 'G-S13Z8KP7ML');
   </script>
-  <title>Guides &amp; FAQ · Little Companions</title>
-  <meta name="description" content="Little Companions — touch-responsive plush companions. Catalog + enquiry. Design Lab concepts.">
+  <title>KAKALOOM guides and FAQ · Little Companions</title>
+  <meta name="description" content="FAQ for KAKALOOM and Design Lab: a touch-responsive plush pet, not a talking AI assistant. Ordering is not open. A $3 Lab ticket is a deposit, not a pre-order.">
+  <link rel="canonical" href="https://www.panpanbuddy.com/guides.html">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Little Companions">
+  <meta property="og:locale" content="en">
+  <meta property="og:title" content="KAKALOOM guides and FAQ · Little Companions">
+  <meta property="og:description" content="FAQ for KAKALOOM and Design Lab: a touch-responsive plush pet, not a talking AI assistant. Ordering is not open. A $3 Lab ticket is a deposit, not a pre-order.">
+  <meta property="og:url" content="https://www.panpanbuddy.com/guides.html">
+  <meta property="og:image" content="https://www.panpanbuddy.com/assets/clean/scene-sofa.jpg">
+  <meta property="og:image:alt" content="Three KAKALOOM companions in soft colors on a yellow sofa">
+  <meta property="og:image:width" content="1600">
+  <meta property="og:image:height" content="984">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="KAKALOOM guides and FAQ · Little Companions">
+  <meta name="twitter:description" content="FAQ for KAKALOOM and Design Lab: a touch-responsive plush pet, not a talking AI assistant. Ordering is not open. A $3 Lab ticket is a deposit, not a pre-order.">
+  <meta name="twitter:image" content="https://www.panpanbuddy.com/assets/clean/scene-sofa.jpg">
+  <meta name="twitter:image:alt" content="Three KAKALOOM companions in soft colors on a yellow sofa">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "url": "https://www.panpanbuddy.com/guides.html",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is KAKALOOM a talking AI assistant?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. It is a touch-responsive plush pet with movement and sound. Do not expect open-ended conversations or voice-assistant behavior."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does it need Wi-Fi or an app?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Supplier materials describe an offline-oriented product without a required companion app. We will confirm against the exact retail version before purchases open, including any service costs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I wash it?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Do not assume that a removable cover is machine washable. Keep electronic components dry, and follow the cleaning instructions supplied with the retail version."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does charging take?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We are confirming charging time and battery-use conditions for the retail version. We will publish verified guidance before ordering opens."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Who is it for?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It may appeal to people who enjoy plush pets, tactile interaction and characterful gifts. Check the final product age guidance and instructions before purchasing for a child."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I order now?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Online ordering is not open yet. Pricing, US delivery, and any EU shipping details are being finalized."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you ship to Europe?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Placeholder: We welcome EU/UK enquiries. Public EU shipping rates, carriers, and import-charge responsibility will be published before EU checkout is enabled. Design Lab tickets (when live) will state eligible regions separately."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is Design Lab?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A concept studio to test same-spec companion shells. $3 = 1 ticket, 7-day windows, sample only if the goal is met. Concepts are not for sale."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is a Design Lab ticket an order?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. A $3 deposit is a ticket, not a pre-order. If the concept does not reach its published goal within the 7-day window, or if we cancel the run, you receive a full refund to your original payment method within 7 business days."
+        }
+      }
+    ]
+  }
+  </script>
   <link rel="stylesheet" href="css/site.css">
 </head>
 <body class="lc-site">
   <a class="lc-skip" href="#main">Skip to content</a>
   
-  <div class="lc-announcement">Catalog + enquiry · Online checkout closed · <a href="design-lab/index.html">Design Lab Season 1</a></div>
+  <div class="lc-announcement">Catalog + enquiry · Online checkout closed · <a href="/design-lab/">Design Lab Season 1</a></div>
   <header class="lc-header">
     <div class="lc-container lc-nav">
-      <a class="lc-brand" href="index.html">
+      <a class="lc-brand" href="/">
         <span class="lc-brand-mark">L<span>c</span></span>
         <span>Little Companions<small>SOFT COMPANY YOU CAN HOLD</small></span>
       </a>
       <button class="lc-menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">Menu</button>
       <nav class="lc-links" id="site-nav" aria-label="Primary">
-          <a href="index.html">Home</a>
+          <a href="/">Home</a>
           <a href="product.html">KAKALOOM</a>
           <a href="how-it-works.html">How it works</a>
           <a href="guides.html" class="is-active">Guides</a>
-          <a href="design-lab/index.html">Design Lab</a>
+          <a href="/design-lab/">Design Lab</a>
           <a href="about.html">About</a>
           <a href="contact.html">Contact</a>
       </nav>
@@ -58,7 +167,7 @@
       <details><summary>What is Design Lab?</summary><p>A concept studio to test <strong>same-spec</strong> companion shells. <strong>$3 = 1 ticket</strong>, <strong>7-day</strong> windows, sample only if the goal is met. Concepts are <strong>not for sale</strong>.</p></details>
       <details><summary>Is a Design Lab ticket an order?</summary><p>No. A <strong>$3 deposit is a ticket</strong>, not a pre-order. If the concept does not reach its published goal within the 7-day window, or if we cancel the run, you receive a <strong>full refund to your original payment method within 7 business days</strong>.</p></details>
     </div>
-    <p class="lc-small" style="margin-top:28px">More questions? <a href="contact.html">Contact us</a> · <a href="design-lab/index.html">Browse Design Lab</a></p>
+    <p class="lc-small" style="margin-top:28px">More questions? <a href="contact.html">Contact us</a> · <a href="/design-lab/">Browse Design Lab</a> · <a href="/journal/what-kakaloom-is.html">What KAKALOOM is</a></p>
   </div>
 </div>
 
@@ -66,7 +175,7 @@
   <footer class="lc-footer">
     <div class="lc-container lc-footer-top">
       <div class="lc-footer-brand">
-        <a class="lc-brand" href="index.html"><span class="lc-brand-mark">L<span>c</span></span><span>Little Companions</span></a>
+        <a class="lc-brand" href="/"><span class="lc-brand-mark">L<span>c</span></span><span>Little Companions</span></a>
         <p>Soft company you can hold.<br>Touch-responsive. Not an open chat AI.</p>
       </div>
       <div>
@@ -74,7 +183,8 @@
         <a href="product.html">KAKALOOM</a>
         <a href="how-it-works.html">How it works</a>
         <a href="guides.html">Guides</a>
-        <a href="design-lab/index.html">Design Lab</a>
+        <a href="/journal/what-kakaloom-is.html">What KAKALOOM is</a>
+        <a href="/design-lab/">Design Lab</a>
       </div>
       <div>
         <h2>COMPANY</h2>
