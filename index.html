@@ -3,6 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- GitHub Pages serves .html files at the extensionless path, and index.html at the directory URL, both as 200. There is no rewrite file this host honors. Send those aliases to the sitemap URL. -->
+  <script>
+    (function () {
+      var canonicalPath = "/";
+      if (location.pathname !== canonicalPath) {
+        location.replace(canonicalPath + location.search + location.hash);
+      }
+    })();
+  </script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-S13Z8KP7ML"></script>
   <script>
@@ -11,27 +20,120 @@
     gtag('js', new Date());
     gtag('config', 'G-S13Z8KP7ML');
   </script>
-  <title>Home · Little Companions</title>
-  <meta name="description" content="Little Companions brings touch-responsive plush pets for quieter everyday moments in the US &amp; Europe.">
+  <title>KAKALOOM plush companion · Little Companions</title>
+  <meta name="description" content="Meet KAKALOOM, a touch-responsive plush with pet-like movement and sound. It is not an open-conversation AI assistant. Retail checkout is closed.">
+  <link rel="canonical" href="https://www.panpanbuddy.com/">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Little Companions">
+  <meta property="og:locale" content="en">
+  <meta property="og:title" content="KAKALOOM plush companion · Little Companions">
+  <meta property="og:description" content="Meet KAKALOOM, a touch-responsive plush with pet-like movement and sound. It is not an open-conversation AI assistant. Retail checkout is closed.">
+  <meta property="og:url" content="https://www.panpanbuddy.com/">
+  <meta property="og:image" content="https://www.panpanbuddy.com/assets/clean/scene-sofa.jpg">
+  <meta property="og:image:alt" content="Three KAKALOOM companions in soft colors on a yellow sofa">
+  <meta property="og:image:width" content="1600">
+  <meta property="og:image:height" content="984">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="KAKALOOM plush companion · Little Companions">
+  <meta name="twitter:description" content="Meet KAKALOOM, a touch-responsive plush with pet-like movement and sound. It is not an open-conversation AI assistant. Retail checkout is closed.">
+  <meta name="twitter:image" content="https://www.panpanbuddy.com/assets/clean/scene-sofa.jpg">
+  <meta name="twitter:image:alt" content="Three KAKALOOM companions in soft colors on a yellow sofa">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.panpanbuddy.com/#organization",
+        "name": "Little Companions",
+        "legalName": "Guangzhou PanPanTech Co., Ltd.",
+        "url": "https://www.panpanbuddy.com/",
+        "email": "info@panpantechnology.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.panpanbuddy.com/apple-touch-icon.png",
+          "width": 180,
+          "height": 180
+        },
+        "description": "Little Companions publishes a catalog of touch-responsive plush companions, including KAKALOOM. Online retail checkout is closed."
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.panpanbuddy.com/#website",
+        "name": "Little Companions",
+        "url": "https://www.panpanbuddy.com/",
+        "inLanguage": "en",
+        "publisher": {
+          "@id": "https://www.panpanbuddy.com/#organization"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.panpanbuddy.com/#faq",
+        "url": "https://www.panpanbuddy.com/",
+        "isPartOf": {
+          "@id": "https://www.panpanbuddy.com/#website"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is KAKALOOM a talking AI assistant?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. KAKALOOM is presented as a touch-responsive plush companion with pet-like movement and sound. It is not an open-conversation AI assistant."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I order one today?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We are finalizing retail availability, pricing and shipping details. Online checkout will open once those details are confirmed. You can send us a product enquiry now."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where will orders ship from?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Our planned first market is the contiguous United States, with orders shipping from China. Shipping prices, delivery estimates and import-charge information will be published before checkout opens. EU shipping options and any import charges will be published before EU checkout — enquire if you are in the EU/UK."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I stock KAKALOOM in my store?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We welcome wholesale enquiries. Tell us about your store, destination country and expected quantity."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
   <link rel="stylesheet" href="css/site.css">
 </head>
 <body class="lc-site">
   <a class="lc-skip" href="#main">Skip to content</a>
   
-  <div class="lc-announcement">Catalog + enquiry · Online checkout closed · <a href="design-lab/index.html">Design Lab Season 1</a></div>
+  <div class="lc-announcement">Catalog + enquiry · Online checkout closed · <a href="/design-lab/">Design Lab Season 1</a></div>
   <header class="lc-header">
     <div class="lc-container lc-nav">
-      <a class="lc-brand" href="index.html">
+      <a class="lc-brand" href="/">
         <span class="lc-brand-mark">L<span>c</span></span>
         <span>Little Companions<small>SOFT COMPANY YOU CAN HOLD</small></span>
       </a>
       <button class="lc-menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">Menu</button>
       <nav class="lc-links" id="site-nav" aria-label="Primary">
-          <a href="index.html" class="is-active">Home</a>
+          <a href="/" class="is-active">Home</a>
           <a href="product.html">KAKALOOM</a>
           <a href="how-it-works.html">How it works</a>
           <a href="guides.html">Guides</a>
-          <a href="design-lab/index.html">Design Lab</a>
+          <a href="/design-lab/">Design Lab</a>
           <a href="about.html">About</a>
           <a href="contact.html">Contact</a>
       </nav>
@@ -130,30 +232,30 @@
         <h2 id="home-ip-heading">Pick a shell. Cast a ticket.</h2>
         <p>Several vote-pool IPs live in Design Lab. Here’s a taste from the DUMIMI little-monster concepts — labeled <strong>Concept · not for sale</strong>.</p>
       </div>
-      <a class="lc-button" href="design-lab/index.html">Visit Design Lab <span aria-hidden="true">→</span></a>
+      <a class="lc-button" href="/design-lab/">Visit Design Lab <span aria-hidden="true">→</span></a>
     </div>
     <div class="lc-home-ip-grid" role="list">
-      <a class="lc-home-ip-tile" href="design-lab/index.html" role="listitem">
+      <a class="lc-home-ip-tile" href="/design-lab/" role="listitem">
         <span class="lc-home-ip-media"><img src="assets/lab/sunny-spots.jpg" alt="Sunny Spots concept shell" loading="lazy"></span>
         <span class="lc-home-ip-cap"><strong>Sunny Spots</strong><em>Season 1 vote</em></span>
       </a>
-      <a class="lc-home-ip-tile" href="design-lab/index.html" role="listitem">
+      <a class="lc-home-ip-tile" href="/design-lab/" role="listitem">
         <span class="lc-home-ip-media"><img src="assets/lab/bolster-lumpy.jpg" alt="Bolster Lumpy concept shell" loading="lazy"></span>
         <span class="lc-home-ip-cap"><strong>Bolster Lumpy</strong><em>Season 1 vote</em></span>
       </a>
-      <a class="lc-home-ip-tile" href="design-lab/index.html" role="listitem">
+      <a class="lc-home-ip-tile" href="/design-lab/" role="listitem">
         <span class="lc-home-ip-media"><img src="assets/lab/tri-eye-teal.jpg" alt="Tri-Eye Teal concept shell" loading="lazy"></span>
         <span class="lc-home-ip-cap"><strong>Tri-Eye Teal</strong><em>Season 1 vote</em></span>
       </a>
-      <a class="lc-home-ip-tile" href="design-lab/index.html" role="listitem">
+      <a class="lc-home-ip-tile" href="/design-lab/" role="listitem">
         <span class="lc-home-ip-media"><img src="assets/lab/home-ip/tile-hanger.jpg" alt="Blue Grumpy plush hanger concept" loading="lazy"></span>
         <span class="lc-home-ip-cap"><strong>Blue Grumpy</strong><em>Concept · not for sale</em></span>
       </a>
-      <a class="lc-home-ip-tile" href="design-lab/index.html" role="listitem">
+      <a class="lc-home-ip-tile" href="/design-lab/" role="listitem">
         <span class="lc-home-ip-media"><img src="assets/lab/home-ip/tile-backpack.jpg" alt="Heart Pack purple backpack concept" loading="lazy"></span>
         <span class="lc-home-ip-cap"><strong>Heart Pack</strong><em>Concept · not for sale</em></span>
       </a>
-      <a class="lc-home-ip-tile" href="design-lab/index.html" role="listitem">
+      <a class="lc-home-ip-tile" href="/design-lab/" role="listitem">
         <span class="lc-home-ip-media"><img src="assets/lab/home-ip/tile-life-hood.jpg" alt="Horn Hood lifestyle concept plush" loading="lazy"></span>
         <span class="lc-home-ip-cap"><strong>Horn Hood</strong><em>Concept · not for sale</em></span>
       </a>
@@ -174,13 +276,28 @@
     <details><summary>Can I stock KAKALOOM in my store?</summary><p>We welcome wholesale enquiries. Tell us about your store, destination country and expected quantity.</p></details>
   </div>
 </section>
+<section class="lc-container lc-section lc-journal-home" aria-labelledby="journal-title">
+  <div class="lc-eyebrow"><span></span> A SHORT NOTE</div>
+  <div class="lc-section-heading"><h2 id="journal-title">What these pages mean by KAKALOOM.</h2></div>
+  <div class="lc-blog-grid">
+    <article class="lc-blog-card">
+      <a class="lc-blog-card-image" href="journal/what-kakaloom-is.html"><img src="assets/clean/scene-sofa.jpg" alt="Three KAKALOOM companions in soft colors on a yellow sofa" width="1600" height="984"></a>
+      <div class="lc-blog-card-copy">
+        <p class="lc-blog-card-meta"><span>12 November 2026</span><span>Product</span></p>
+        <h3><a href="journal/what-kakaloom-is.html">What KAKALOOM is</a></h3>
+        <p>A touch-responsive plush companion with pet-like movement and sound. Not an open-conversation AI assistant. Retail checkout stays closed.</p>
+        <div class="lc-blog-card-bottom"><a href="journal/what-kakaloom-is.html">Read the note <span aria-hidden="true">→</span></a><span>Little Companions</span></div>
+      </div>
+    </article>
+  </div>
+</section>
 <section class="lc-wholesale-band"><div class="lc-container"><div><div class="lc-eyebrow">A LITTLE SOMETHING FOR YOUR SHELVES</div><h2>Good company for your store.</h2><p>Bring a little curiosity to your collection. Let’s talk wholesale.</p></div><a class="lc-button lc-button-light" href="wholesale.html">Let’s work together <span aria-hidden="true">→</span></a></div></section>
 
   </main>
   <footer class="lc-footer">
     <div class="lc-container lc-footer-top">
       <div class="lc-footer-brand">
-        <a class="lc-brand" href="index.html"><span class="lc-brand-mark">L<span>c</span></span><span>Little Companions</span></a>
+        <a class="lc-brand" href="/"><span class="lc-brand-mark">L<span>c</span></span><span>Little Companions</span></a>
         <p>Soft company you can hold.<br>Touch-responsive. Not an open chat AI.</p>
       </div>
       <div>
@@ -188,7 +305,8 @@
         <a href="product.html">KAKALOOM</a>
         <a href="how-it-works.html">How it works</a>
         <a href="guides.html">Guides</a>
-        <a href="design-lab/index.html">Design Lab</a>
+        <a href="/journal/what-kakaloom-is.html">What KAKALOOM is</a>
+        <a href="/design-lab/">Design Lab</a>
       </div>
       <div>
         <h2>COMPANY</h2>
